@@ -1,16 +1,20 @@
 from turtle import fillcolor, begin_fill, forward, left, end_fill, exitonclick
 
 size = 100
+<<<<<<< HEAD
 color = "#purple"
+=======
+color = "#blue"
+>>>>>>> sestiuhelnik
 
 # Nastaví barvu
 fillcolor(color)
 begin_fill()
 
-# Nakreslí čtverec
-for _ in range(4):
+# Nakreslí šestiuhelník
+for _ in range(6):
     forward(size)
-    left(90)
+    left(60)
 
 end_fill()
 
